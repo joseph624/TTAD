@@ -1,0 +1,115 @@
+ 
+
+
+
+.App {
+  text-align: center;
+
+}
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}*/
+
+.App-header {
+ 
+  background-image:   url("../images/hero.png");
+  box-shadow: 0px 12px 51px grey;
+  width:100%;
+  height:auto;
+  padding: 20px;
+  color: white;
+  padding:50px;
+ background-size: cover;
+  background-repeat: no-repeat;
+min-height:   40vh;
+}
+
+.App-header-arrow {
+
+  height:1vh;
+  background-color:#f68b1f; 
+
+}
+
+.arrow-down {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 20px 20px 0 20px;
+border-color: #f68b1f transparent transparent transparent;
+margin: auto;
+
+}
+
+.App-title {
+  font-size: 10vw;
+  font-family: 'Monoton', cursive;
+  font-weight: 400;
+  color: #e4f6f8;
+  margin: auto;
+  width:  50%;
+  padding-top: 12 0px;
+  background-color:   black !important  ;
+  border-radius:  50px;
+  opacity: 0.6;
+
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.btn-primary {
+  color: white !important;
+  background-color: white !important;
+  border-color: white !important;
+   
+ }
+
+ .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: white !important;
+    border-color: white !important;
+}
+
+ .btn-outline{
+  background-color: transparent !important;
+  color: white !important ;
+  margin-top:  15%;
+}
+
+.btn-primary:hover {
+  color: white !important;
+}
+
+.content-lead {
+ 
+  
+ margin-top:  60px;
+ height:  50vh;
+
+}
+
+.img-lead {
+  width:100%;
+}
+
+/* 
+
+Blue - #62c2cc
+Green - #eef66c
+grey - #e4f6f8
+Dark O - #f17022
+light o - #f68b1f
+yellow 0 -#fdb813
+
+*/
